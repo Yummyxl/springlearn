@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="person" class="com.learn.bean.Demo1.PersonImpl" scope="prototype">
-
+    <bean id="person" class="com.learn.bean.Demo1.PersonImpl" scope="singleton">
+        <property name="name" value="123"></property>
     </bean>
 </beans>
